@@ -1,0 +1,184 @@
+class-1
+                                                                                                          
+  HTML-Hypertext markup language
+      -html has collection of predefined tag.
+      -html tag use to create basic structure of webpage.
+      -the html tags use to collection from user also use to display output to user to user via web browser.
+      -html tag has limited property and values and values due to this limitations CSS, JavaScript.
+                                                                                                         
+ 
+HOW IT WORK?
+     -Responsive webpage=html(tags)+css(property & values)
+                                                                                                          
+TAG?
+   1-open tag
+   2-close tag 
+                                                                                                          
+
+HOW MANY TYPES OF TAGS IN HTML?
+   1-input tag-it use to collect from user.
+   2-output tag-it use to display output to user.
+                                                                                                         
+
+SYNTAX/STRUTURE OF HTML TAG?
+   1-Dependent tag- Those html tag, that open separate and close.
+    ex- <html>    </html>
+        <body>    </body>
+        <h1>      </h1>
+   2-Independent tag-Those html tag, that has only open.
+    ex- <br>
+        <img>
+        <hr>
+        <abc>
+  3-Self closing tag-Those html tag, that has open and close together.
+   ex- <br/>
+       <img/>
+       <hr/> 
+                                                                                                          
+
+THE BEHAVIOR OF HTML TAG?
+  1-Block level tag-it print the statement in new line by default.
+  2-Inline tag-it print the statement in same line side by side.
+                                                                                                        
+
+USING CSS?
+  A-Inline tag-We can convert into block.
+  B-Block level tag-We can convert into inline tag this is called responsive webpage design.
+                                                                                                        
+
+TAG:-
+ 1-Input tag- it collect input.
+ 2-output tag- it display different type of output.
+ 3-dependent tag- it open and close separate.
+ 4-independent tag- it has only open.
+ 5-self closing tag- it open and together.
+ 6-block level tag- it print the statement in new line.
+ 7-inline tag- it print the statement in same line.
+                                                                                                        
+class-2
+                                                                                                          
+ what are valid extension of html document
+  .html - it is best for digital marketing 
+  .htm
+                                                                                                        
+Note-
+1. the html tag open 1st should get class in last.
+2. the html tag open at 1st should get close 1st
+This is import for browser independent
+..........................................................................................................
+Different name of html tag in other language
+    <h1> (html)   =>tag
+    <h1> (css)   =>selector
+    <h1> (js)   =>element
+    <h1> (react)   =>jsx element
+    <h1> (jquery)   =>control
+                                                                                                        
+
+<DOCTYPE html>
+  ->it represent that current document is html
+  ->it also introduct to browser that current have html5 tags also be ready to excute it.
+                                                                                                        
+structure of html document
+   ->html start to html end to called document
+   ->head
+      1.All analytics related 
+      2.Digital marketing related
+      3.Library sections(css,JavaScript,external library....)
+
+    ->body
+      ->input and output area
+      ->use suitable tags based on contents.
+                                                                                                        
+h1 to h6 - it is called headding tag. it use to create heading of webpage
+   Note- fallow h1 min and max 1 time in page for better user experiance
+   h2 to h3 use based on need
+                                                                                                          
+Type of list in HTML ?
+1-OL- Order list
+   type="1"
+   type="A"
+   TYPE="a"
+   type="I"
+   type="i"
+2-UL- Unorder list
+   type="disc"
+   type="square"
+   type="circle"
+   type="none"
+3-DL- Defination list
+   ->dt- defination title(it use to crate headline of contents)
+   ->dd- defination details(it use to display details about contents, may be one lline or multiple line)
+                                                                                                        
+Table in hmtl ?
+ 1st method 
+  =>table 
+    ->caption
+    ->tr 
+       ->th
+       ->td
+ 2nd method
+  =>table
+    ->thead - it cover top section of table 
+      ->tr
+         ->td
+    ->tbody - it cover middle section / data part of table
+      ->tr
+        ->td
+    ->tfoot - it cover bootom section table
+      ->tr
+        ->th
+                                                                                                         
+
+->property and value in table
+ ->align(left,right,center,justify)
+ ->valign(top,middle,bottom)
+ border
+ ->bordercolor - it change border color
+ ->cellpadding - it apply space inside th, td
+ ->cellspacing - it apply space outside of th, td
+ ->rowspan - it combine space of 2 or more tr(top to bottom)
+ ->calspan - it combine space of 2 or more th(left to right)
+ ->width
+ ->height
+ ->bgcolor
+                                                                                                          
+
+Input tags
+ 1.text
+ 2.number
+ 3.email
+ 4.password
+ 5.textarea
+ 6.selector
+ 7.checkbox
+ 8.radio
+ 9.date
+ 10.file
+ 11.button
+   ->submit
+   ->reset
+   ->button
+                                                                                                          
+Form -
+ ->action- it use to set path/ url for backend where the form data should get submitted.
+ ->method- it define the type of communication between client and server
+   ->get- it pass data via url and fully visible(unsecure communication)
+   ->past- it pass data in hidden mode and encoded(secure communication)
+   ->put- it send a update request to server where modified and and non modified all value get updated
+   ->patch- it send update request to server but only for modified value
+   ->delete- it send delete request to server to delete only specific value
+ ->enctype- it encode the attachment before uploading to server
+                                                                                                                   
+
+List of Property in input element 
+  Placeholder - it is for input guidence
+  Maxlenght - it is limit the number of character in text, email, password, textarea
+  Size - it resize the width of text, email, password
+  name- it create the container that hold the value given by user
+  id- it connect html with css and JavaScript
+  class- it connect html with css and JavaScript 
+  rows- it resize height of textarea 
+  cols- it resize width of textarea
+  readonly- it make input fields as readonly but value can pass to backend
+  disabled- it make input fields as fully disabled/lock, the value can not pass to backend 
+  tabindex- it set sequence of cursor pointer  

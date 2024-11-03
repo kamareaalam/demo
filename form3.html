@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="save.php" method="GET" enctype=""></form>
+    <table align="center" cellpadding="15">
+        <caption>
+            <p>Readonly, Diasabled, Tabindex</p>
+        </caption>
+        <tr>
+            <th>Application No</th>
+            <td><input type="number" value="63065033" disabled="disabled" name="appno"/></td>
+        </tr>
+        <tr>
+            <th>Full Name<font color="red">*</font></th>
+            <td><input type="text" name="fullname" tabindex="1"/></td>
+        </tr>
+        <tr>
+            <th>Mobile No<font color="red">*</font></th>
+            <td><input type="number" name="mobile" tabindex="2"/></td>
+        </tr>
+        <tr>
+            <th>e-Mail Id<font color="red">*</font></th>
+            <td><input type="email" name="email"/></td>
+        </tr>
+        <tr>
+            <th>Adress<font color="red">*</font></th>
+            <td><textarea cols="40" rows="6" tabindex="3"></textarea></td>
+        </tr>
+        <tr>
+            <th>City Name</th>
+            <td>
+                <select name="City">
+                    <option>choose</option>
+                    <option value="1">Banglore</option>
+                    <option selected>Kolkata</option>
+                    <option>Delhi</option>
+                    <option>Pune</option>
+                    <option>Hydrabad</option>
+                </select>
+            </td>
+        </tr>
+        <tr>
+            <th>Gender</th>
+            <td>
+                <input type="radio" value="M" name="gender" checked/>I am male
+                <input type="radio" value="F" name="gender"/>I am Female
+            </td>
+        </tr>
+        <tr>
+            <th>Hobbies</th>
+            <td>
+                <input type="checkbox" name="hobbies[]" value="PLAY"/>Playing
+                <input type="checkbox" name="hobbies[]" value="SING" checked/>Singing
+                <input type="checkbox" name="hobbies[]" value="DANCE" />Danceing
+            </td>
+        </tr>
+        <tr>
+            <th colspan="2">
+                <button type="submit">Submit</button>
+                <button type="reset">Reset</button>
+            </th>
+        </tr>
+    </table>
+</body>
+</html>

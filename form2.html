@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="save.php" method="POST" enctype="">
+        <table align="center" cellpadding="20">
+            <caption>
+                <h1>Contact Us</h1>
+            </caption>
+            <tr>
+                <th>Full Name</th>
+                <td><input type="text" placeholder="enter your name" maxlenght="20" size="40" name="fname"/></td>
+            </tr>
+            <tr>
+                <th>Mobile No</th>
+                <td><input type="number" placeholder="enter any number" maxlenght="10" size="40" name="number"/></td>
+            </tr>
+            <tr>
+                <th>Email Id</th>
+                <td><input type="emial" placeholder="enter email id" maxlenght="10" size="40" name="email"/></td>
+            </tr>
+            <tr>
+                <th>Mesage</th>
+                <td><textarea cols="45" rows="10" placeholder="enter your message max 100 chars" maxlenght="100" name="message"/></textarea></td>
+            </tr>
+            <tr>
+                <th colspan="2">
+                    <button type="submit">Send Message</button>
+                    <button type="reset">Clear All</button>
+                </th>
+            </tr>
+        </table>
+    </form>
+</body>
+</html>
